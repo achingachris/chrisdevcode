@@ -3,7 +3,7 @@ const NavBar = () => {
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
       <div className='container'>
         <a className='navbar-brand' href='#'>
-          Start Bootstrap
+          Chris Achinga
         </a>
         <button
           className='navbar-toggler'
@@ -24,20 +24,20 @@ const NavBar = () => {
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                Link
+              <a className='nav-link disabled' href='#'>
+                Projects
               </a>
             </li>
             <li className='nav-item dropdown'>
               <a
-                className='nav-link dropdown-toggle'
+                className='nav-link dropdown-toggle disabled'
                 id='navbarDropdown'
                 href='#'
                 role='button'
                 data-bs-toggle='dropdown'
                 aria-expanded='false'
               >
-                Dropdown
+                More
               </a>
               <ul
                 className='dropdown-menu dropdown-menu-end'
@@ -45,12 +45,7 @@ const NavBar = () => {
               >
                 <li>
                   <a className='dropdown-item' href='#'>
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className='dropdown-item' href='#'>
-                    Another action
+                    Articles
                   </a>
                 </li>
                 <li>
@@ -58,7 +53,7 @@ const NavBar = () => {
                 </li>
                 <li>
                   <a className='dropdown-item' href='#'>
-                    Something else here
+                    Cools
                   </a>
                 </li>
               </ul>
