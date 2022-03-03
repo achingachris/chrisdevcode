@@ -15,8 +15,8 @@ const Layout = ({ children, web_name = 'Chris Achinga' }: Props) => {
       <MetaTags />
       <div>
         <NavBar />
-        <main>{children}</main>
-        <Footer />
+        <main className='container'>{children}</main>
+        {/* <Footer /> */}
       </div>
     </>
   )
